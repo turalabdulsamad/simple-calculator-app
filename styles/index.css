@@ -1,0 +1,48 @@
+body,button{
+    font-size: 15px;
+}
+
+body{
+    padding-top: 10px;
+
+}
+button{
+    font-weight: bold;
+    border-radius: 0;
+    border-color: rgba(0, 0, 0, 0.39);
+    border-width: 1px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+
+ }
+
+span{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+#operations{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#operands{
+display: flex;
+justify-content: center;
+align-items: center; 
+
+}
+
+#first-operand{
+    margin-right: 10px;
+}
+
+
+#sum-el{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
